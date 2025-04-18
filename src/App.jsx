@@ -64,7 +64,7 @@ function App() {
               onChange={(e) => {
                 setLength(e.target.value);
               }}
-              className="w-full md:w-1/3 h-2 my-2 cursor-pointer bg-gray-200 rounded-lg appearance-none dark:bg-gray-700"
+              className="w-full md:w-1/3 h-2 my-2 cursor-pointer bg-gray-200 rounded-lg appearance-none"
             />
             <label className="text-l text-white font-sans">
               Length: {length}
